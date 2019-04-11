@@ -1,0 +1,152 @@
+/*
+    File: loops.css
+    Description: Styles for exercise pages
+    Author: Lucas Kohorst
+    Last Update: 03/2/2019
+*/
+
+
+/* content will be written with Open Sans typeface */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500|Catamaran:500,800');
+
+/* Global Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/* Styling the image in the navigation bar */
+
+.brand-nav-img {
+    display: block;
+    width: 5rem;
+    max-width: 100%;
+    padding-left: 5px;
+    padding-bottom: .25rem;
+}
+
+
+/* Styling the list in the nav bar */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Floating the elements */
+
+.navbar li {
+    float: left;
+}
+
+
+/* Applying styles to the list items */
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+/* Changing bg color on hover */
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+
+/* Making the main content split into two areas */
+
+.content-container {
+    display: flex;
+}
+
+
+/* Applying the width to the contatiner with the text*/
+
+#main {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+/* Styles for the vetical nav bar */
+
+.navigation-vertical {
+    width: 30%;
+    overflow: hidden;
+}
+
+.navigation-vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.navigation-vertical li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navigation-vertical h2 {
+    padding: 8px 16px;
+}
+
+.navigation-vertical li a.active {
+    background-color: #333;
+    color: white;
+}
+
+.navigation-vertical li a:hover:not(.active) {
+    background-color: #333;
+    color: white;
+}
+
+
+/* Styling the code snippets */
+
+pre {
+    background-color: #2e2f3e;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    color: #f5d67b;
+    display: block;
+    /* white-space: pre-wrap; */
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: scroll;
+}
+
+
+/* Styling the footer */
+
+#footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1em;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
