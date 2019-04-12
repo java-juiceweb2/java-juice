@@ -14,8 +14,35 @@
         <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <!-- this page doesn't have a true "navigation" bar as it is only a
-             landing page; begin the header of the landing page -->
+        <!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <!-- this page doesn't have a true "navigation" bar as it is only a
+            landing page; begin the header of the landing page -->
+    <section id="header">
+        <div class="navbar topnav" id="myTopnav">
+            <ul>
+                <div class="dropdown">
+                    <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
+                    </li>
+                    <div class="dropdown-content">
+                        <a href="#">Hello World</a>
+                        <a href="exercises/types-ex.php">Variables</a>
+                        <a href="exercises/logic-ex.php">Logic</a>
+                        <a href="exercises/loops-ex.php">Loops</a>
+                        <a href="#">Functions</a>
+                    </div>
+                </div>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#quiz">Quiz</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
+            </ul>
+        </div>
+        <!-- End of navbar -->
+    </section>
+        <!-- End of header section -->
         <section id="header">
             <div class="brand-header">
                 <img src="assets/images/java-juice-full-white.png" alt="Java Juice" title="Java Juice" class="brand-header-img" />

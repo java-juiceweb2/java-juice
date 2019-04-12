@@ -1,7 +1,7 @@
 <?php
 
    $path = './';
-   require $path.'../../../dbConnect.inc';
+   require $path.'../../../../dbConnect.inc';
 
     // Getting the content from the db
     $sql = "SELECT content FROM java_juice_exContent WHERE exNumber LIKE '$pagenumber';";

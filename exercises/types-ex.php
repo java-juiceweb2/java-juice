@@ -10,6 +10,6 @@ VERSION: 04/9/2019
    $pagename = "Types and Variables";
    $pagenumber = 1;
 
-   include "assets/inc/content.php";
+   include "../assets/inc/content.php";
 
 ?>
