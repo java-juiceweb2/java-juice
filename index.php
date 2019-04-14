@@ -23,6 +23,10 @@
     <section id="header">
         <div class="navbar topnav" id="myTopnav">
             <ul>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#quiz">Quiz</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
                 <div class="dropdown">
                     <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
                     </li>
@@ -34,10 +38,6 @@
                         <a href="#">Functions</a>
                     </div>
                 </div>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#quiz">Quiz</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
             </ul>
         </div>
         <!-- End of navbar -->
@@ -118,6 +118,55 @@
                 </div>
             </div>
         </section>
+
+        <section id="lesson-cards">
+            <div class="feature-cards">
+                <div class="feature-cards-heading">
+                        Lessons
+                </div>
+                <div class="card card-hover" onclick="location.href='#';" style="width: 45%;">
+                    <div class="card-title">
+                        Hello World
+                    </div>
+                    <div class="card-content">
+                        Example Text for the Hello World Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eaque facilis excepturi amet, expedita vel quos architecto, sed commodi esse officiis. Magni necessitatibus officiis quam quibusdam maiores a, similique recusandae.
+                    </div>
+                </div>
+                <div class="card card-hover" onclick="location.href='exercises/types-ex.php';" style="width: 45%;">
+                    <div class="card-title">
+                        Variables
+                    </div>
+                    <div class="card-content">
+                        Example Text for the Variables Page. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum libero ullam blanditiis exercitationem odio cumque illum ex minus facilis, dignissimos vero hic dolorum aspernatur aliquam! Nobis praesentium quod voluptatum ab.
+                    </div>
+                </div>
+                <div class="card card-hover" onclick="location.href='exercises/logic-ex.php';" style="width: 45%;">
+                    <div class="card-title">
+                        Logic
+                    </div>
+                    <div class="card-content">
+                        Example Text for the Logic Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis culpa temporibus cum molestias quo fugit eaque quibusdam? Saepe pariatur sequi illo rem minima possimus alias magni ut nesciunt repudiandae.
+                    </div>
+                </div>
+                <div class="card card-hover" onclick="location.href='exercises/loops-ex.php';" style="width: 45%;">
+                    <div class="card-title">
+                        Loops     
+                    </div>
+                    <div class="card-content">
+                        Example Text for the Loops Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit, necessitatibus ipsa quasi distinctio ex et. Aperiam harum beatae, ipsam deleniti, iste quia adipisci impedit nulla voluptatum unde ad voluptas!
+                    </div>
+                </div>
+                <div class="card card-hover" onclick="location.href='#';" style="width: 45%; display: block; margin: 0 auto; padding: 2rem;">
+                    <div class="card-title">
+                        Functions
+                    </div>
+                    <div class="card-content">
+                        Example Text for the Functions Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illum numquam quas? Earum reprehenderit maxime sint at, voluptatibus ab necessitatibus dolores dolorem, nobis, dolor quas dignissimos excepturi laborum vero quisquam?
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- end the main content of the landing page, begin the footer -->
         <section id="footer">
             <div class="text-right text-center-sm">Copyright &copy; 2019, Java Juice.</div>

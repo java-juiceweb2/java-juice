@@ -62,7 +62,6 @@ body {
     text-align: center;
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
     padding-right: 1rem;
-    position: relative;
 }
 
 
@@ -86,7 +85,7 @@ body {
 /* Applying styles to the list items */
 
 .navbar li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -122,19 +121,22 @@ body {
 }
 
 .dropdown {
-    display: inline-block;
+    display: block;
     z-index: 1;
 }
 
 .dropdown li {
+    padding-left: 1em;
     float: left;
 }
 
 .dropdown-content {
+    margin-left: 1em;
     display: none;
     position: absolute;
     background-color: #333;
     color: #f1f1f1;
+    min-width: 160px;
     margin-top: 4.5rem;
     z-index: 1;
 }
@@ -161,7 +163,6 @@ body {
     margin: 0 auto;
     width: 18rem;
     max-width: 100%;
-    padding: 30px 0;
 }
 
 .brand-tag {
@@ -170,7 +171,7 @@ body {
     margin: 0 auto;
     font-weight: 800;
     font-size: 4rem;
-    padding: 2rem 0 4rem;
+    padding: 1rem 0 4rem;
 }
 
 .prompt {
@@ -305,6 +306,19 @@ body {
 
 .card-content {
     text-align: justify;
+}
+
+.card-hover {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+.signup {
+    padding-bottom: 5rem;
 }
 
 
