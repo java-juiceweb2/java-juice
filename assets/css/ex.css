@@ -48,10 +48,6 @@
     float: left;
 }
 
-.topnav .icon {
-    display: none;
-}
-
 
 /* Applying styles to the list items */
 
@@ -69,6 +65,63 @@
 
 .navbar li a:hover {
     background-color: #111;
+}
+
+
+/* Styling for the drop down menu */
+
+.dropMenu {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+li a,
+.dropMenu {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+    z-index: 1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #f1f1f1;
+    min-width: 160px;
+    margin-top: 4.5rem;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover .dropdown-content a {
+    display: block;
 }
 
 
@@ -142,15 +195,68 @@ pre {
 }
 
 
+/* Styling the problem class */
+
+.problem {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    outline: none;
+    margin-top: 2em;
+}
+
+
+/* Not showing the answer */
+
+#problem-answer {
+    display: none;
+}
+
+
+/* Styling for the problem set */
+
+#problem-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    outline: none;
+    margin-top: 2em;
+}
+
+.editable-problem {
+    padding-right: 4em;
+    width: 50%;
+    cursor: text;
+    outline: none;
+}
+
+#result-button {
+    padding: .8rem;
+    border-radius: .25rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    background-color: #686262;
+    color: #f9f9f9;
+    transition: background-color .3s ease-out, box-shadow .3s ease-out;
+}
+
+button:hover {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
+}
+
+
 /* Styling the footer */
 
 #footer {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 1em;
-    text-align: center;
+    text-align: right;
     background-color: #333;
     color: white;
+    padding: 30px;
 }
 
 
