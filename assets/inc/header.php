@@ -33,11 +33,11 @@
                         <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
                         </li>
                         <div class="dropdown-content">
-                            <a href="#">Hello World</a>
+                            <a href="../exercises/hello-ex.php">Hello World</a>
                             <a href="../exercises/types-ex.php">Variables</a>
                             <a href="../exercises/logic-ex.php">Logic</a>
                             <a href="../exercises/loops-ex.php">Loops</a>
-                            <a href="#">Functions</a>
+                            <a href="../exercises/methods-ex.php">Methods</a>
                         </div> 
                     </div>
                 </ul>

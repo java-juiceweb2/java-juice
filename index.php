@@ -31,11 +31,11 @@
                     <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
                     </li>
                     <div class="dropdown-content">
-                        <a href="#">Hello World</a>
+                        <a href="exercises/hello-ex.php">Hello World</a>
                         <a href="exercises/types-ex.php">Variables</a>
                         <a href="exercises/logic-ex.php">Logic</a>
                         <a href="exercises/loops-ex.php">Loops</a>
-                        <a href="#">Functions</a>
+                        <a href="exercises/methods-ex.php">Methods</a>
                     </div>
                 </div>
             </ul>
@@ -124,12 +124,12 @@
                 <div class="feature-cards-heading">
                         Lessons
                 </div>
-                <div class="card card-hover" onclick="location.href='#';" style="width: 45%;">
+                <div class="card card-hover" onclick="location.href='exercises/hello-ex.php';" style="width: 45%;">
                     <div class="card-title">
                         Hello World
                     </div>
                     <div class="card-content">
-                        Example Text for the Hello World Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eaque facilis excepturi amet, expedita vel quos architecto, sed commodi esse officiis. Magni necessitatibus officiis quam quibusdam maiores a, similique recusandae.
+                        An introduction to Java and Object Oriented Programming (OOP). This lesson will teach the user how to write their first Java program, discuss classes and methods. As well as multiple ways to compile and run your Java program.
                     </div>
                 </div>
                 <div class="card card-hover" onclick="location.href='exercises/types-ex.php';" style="width: 45%;">
@@ -137,7 +137,7 @@
                         Variables
                     </div>
                     <div class="card-content">
-                        Example Text for the Variables Page. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum libero ullam blanditiis exercitationem odio cumque illum ex minus facilis, dignissimos vero hic dolorum aspernatur aliquam! Nobis praesentium quod voluptatum ab.
+                        Discusses how to define variables, set and change them. Along with explanations of different data type, Primitives and Objects in Java.
                     </div>
                 </div>
                 <div class="card card-hover" onclick="location.href='exercises/logic-ex.php';" style="width: 45%;">
@@ -145,7 +145,7 @@
                         Logic
                     </div>
                     <div class="card-content">
-                        Example Text for the Logic Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis culpa temporibus cum molestias quo fugit eaque quibusdam? Saepe pariatur sequi illo rem minima possimus alias magni ut nesciunt repudiandae.
+                        Basic logic in Java with topics including if and else blocks, comparison operators, truth evaluation and combining conditions together. 
                     </div>
                 </div>
                 <div class="card card-hover" onclick="location.href='exercises/loops-ex.php';" style="width: 45%;">
@@ -153,15 +153,15 @@
                         Loops     
                     </div>
                     <div class="card-content">
-                        Example Text for the Loops Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit, necessitatibus ipsa quasi distinctio ex et. Aperiam harum beatae, ipsam deleniti, iste quia adipisci impedit nulla voluptatum unde ad voluptas!
+                        When you need to repeat a block of code you can loop over it! In this section for, while and do while loops are explained.
                     </div>
                 </div>
-                <div class="card card-hover" onclick="location.href='#';" style="width: 45%; display: block; margin: 0 auto; padding: 2rem;">
+                <div class="card card-hover" onclick="location.href='exercises/methods-ex.php';" style="width: 45%; display: block; margin: 0 auto; padding: 2rem;">
                     <div class="card-title">
-                        Functions
+                        Methods
                     </div>
                     <div class="card-content">
-                        Example Text for the Functions Page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illum numquam quas? Earum reprehenderit maxime sint at, voluptatibus ab necessitatibus dolores dolorem, nobis, dolor quas dignissimos excepturi laborum vero quisquam?
+                        Methods (also known as functions) are a core to Object Oriented Programming as they allow you to execute a block of code when you call the method, allowing for better functionality and less repeat code.
                     </div>
                 </div>
             </div>
