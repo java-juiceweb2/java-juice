@@ -12,6 +12,10 @@
         <title>Java Juice &bull; Home</title>
         <link type="image/svg+xml" rel="preload" href="assets/images/ripple.svg" />
         <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
+        <!-- Icon -->
+        <link rel="icon" href="assets/images/java-juice-icon-small.png">
+
     </head>
     <body>
         <!DOCTYPE html>
