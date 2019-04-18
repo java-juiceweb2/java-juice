@@ -1,7 +1,7 @@
 <!--
     FILE:    index.php
     DESC:    The index page for Java Juice (project landing)
-    AUTHOR:  Kevin J. Becker 
+    AUTHOR:  Kevin J. Becker
     VERSION: 02/12/2019
 -->
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
             <ul>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#quiz">Quiz</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/quiz.php">Quiz</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
                 <div class="dropdown">
                     <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
@@ -86,7 +86,7 @@
                         Java was designed to be simple to learn, understand and
                         write.  Software can be written once and run on most
                         systems, making Java the choice candidate for many
-                        applications. Java Juice makes the learning process 
+                        applications. Java Juice makes the learning process
                         intuitive and fun.
                     </div>
                 </div>
@@ -98,8 +98,8 @@
                     <div class="card-content">
                         Java has been around since the mid-1990s.  Throughout
                         its years of existence, Java has built up a large
-                        community of people sharing their knowledge.  Don't know 
-                        how to do something? There's a good chance someone else 
+                        community of people sharing their knowledge.  Don't know
+                        how to do something? There's a good chance someone else
                         will.
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         Opportunity
                     </div>
                     <div class="card-content">
-                        According to the 
+                        According to the
                         <a href="https://www.tiobe.com/tiobe-index/" target="_blank">TIOBE Index</a>,
                         Java is the software industry's widest adopted language.
                         From companies like Netflix and Airbnb, to LinkedIn and
@@ -145,12 +145,12 @@
                         Logic
                     </div>
                     <div class="card-content">
-                        Basic logic in Java with topics including if and else blocks, comparison operators, truth evaluation and combining conditions together. 
+                        Basic logic in Java with topics including if and else blocks, comparison operators, truth evaluation and combining conditions together.
                     </div>
                 </div>
                 <div class="card card-hover" onclick="location.href='exercises/loops-ex.php';" style="width: 45%;">
                     <div class="card-title">
-                        Loops     
+                        Loops
                     </div>
                     <div class="card-content">
                         When you need to repeat a block of code you can loop over it! In this section for, while and do while loops are explained.
@@ -173,8 +173,8 @@
         </section>
 
         <!-- loads the JS files last to optimize time to view -->
-        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" 
-            integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" 
+        <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"
+            integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
             crossorigin="anonymous"></script>
     </body>
 </html>
