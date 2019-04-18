@@ -1,0 +1,49 @@
+// PROBLEM ====================================================================
+
+// This is a practice problem fill in the code below
+// then check your answer
+
+public static void main(String[] args) {
+    int var1 = 5;
+    boolean var2 = false;
+    // Type your code here
+
+    // create an if-condition below that 
+    // checks if var1 is less than 5
+    if( < your code here > ) {
+        System.out.println("var1 is less than 5");
+    } else {
+        System.out.println("var1 is not less than 5");
+    }
+
+    // write a condition using var1 and var2 that will 
+    // execute the code in the if-block
+    if( < your code here > ) {
+        System.out.println("Successfully ran the if-block");
+    }
+}
+
+// SOLUTION ===================================================================
+
+// This is a practice problem fill in the code below
+// then check your answer
+
+public static void main(String[] args) {
+    int var1 = 5;
+    boolean var2 = false;
+    // Type your code here
+
+    // create an if-condition below that 
+    // checks if var1 is less than 5
+    if( var1 < 5 ) {
+        System.out.println("var1 is less than 5");
+    } else {
+        System.out.println("var1 is not less than 5");
+    }
+
+    // write a condition using var1 and var2 that will 
+    // execute the code in the if-block
+    if( var1 == 5 && !var2 ) {
+        System.out.println("Successfully ran the if-block");
+    }
+}
