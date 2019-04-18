@@ -58,11 +58,14 @@
                 <div class="prompt">
                     Create your free account now
                 </div>
-                <!-- this is just set to NOT submit for the time being -->
-                <form method="post" onsubmit="return false;">
+                <form method="post" action="exercises/register.php">
                     <div class="input-row">
-                        <input type="email" placeholder="Enter your email" />
-                        <button>
+                        <input type="email" 
+                               placeholder="Enter your email"
+                               id="email"
+                               name="email"
+                               required />
+                        <button type="submit">
                             Start learning now
                         </button>
                     </div>
