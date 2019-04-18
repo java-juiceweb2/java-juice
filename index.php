@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta name="theme-color" content="#eb5e55">
         <title>Java Juice &bull; Home</title>
         <link type="image/svg+xml" rel="preload" href="assets/images/ripple.svg" />
