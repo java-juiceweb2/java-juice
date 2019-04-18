@@ -25,7 +25,7 @@
             <ul>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/quiz.php">Quiz</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/login.php">Quiz</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
                 <div class="dropdown">
                     <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
