@@ -1,0 +1,26 @@
+// PROBLEM ===========================================
+// This is a practice problem fill in the code below
+// then check your answer
+public static void main(String[] args){
+	// Define the two numbers here
+	//Call the method here
+}
+// Write a method here that takes two variables and returns no value
+// The method will multiply the two numbers and print the result to the screen
+
+// SOLUTION ===========================================
+public static void main(String[] args){
+   // Define the two numbers here
+   	int num1 = 12;
+   	int num2 = 8;
+   	//Call the method here
+   	multiplyNums(num1,num2);
+}
+// Write a method here that takes two variables and returns no value
+// The method will multiply the two numbers and print the result to the screen
+public static void multiplyNums(int num1, int num2){
+      int ans = 0;
+      ans = num1 * num2;
+      System.out.println(ans);
+}
+//As a reminder, all of this code will be found inside of a class
