@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 17, 2019 at 09:47 PM
+-- Generation Time: Apr 17, 2019 at 10:20 PM
 -- Server version: 5.5.60-MariaDB
 -- PHP Version: 7.1.24
 
@@ -19,16 +19,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kjb2503`
+-- Database: `ljk4798`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `java_juice_users`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE `java_juice_users` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_name` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
   `user_pass` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -38,10 +38,10 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `java_juice_users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `user_pass`, `user_fn`, `user_ln`, `user_email`) VALUES
+INSERT INTO `java_juice_users` (`id`, `user_name`, `user_pass`, `user_fn`, `user_ln`, `user_email`) VALUES
 (1, 'kevin', '(this will not work i just need the entry in the table with my username)', 'Kevin', 'Becker', 'kevin@kevinbecker.us');
 
 --
@@ -49,9 +49,9 @@ INSERT INTO `users` (`id`, `user_name`, `user_pass`, `user_fn`, `user_ln`, `user
 --
 
 --
--- Indexes for table `users`
+-- Indexes for table `java_juice_users`
 --
-ALTER TABLE `users`
+ALTER TABLE `java_juice_users`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `user_name` (`user_name`);
 
@@ -60,10 +60,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `java_juice_users`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;COMMIT;
+ALTER TABLE `java_juice_users`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
