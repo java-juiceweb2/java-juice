@@ -48,6 +48,8 @@ if(isset($_POST['username']) &&
         <title>Java Juice &bull; Login</title>
         <link type="text/css" rel="stylesheet" href="../assets/css/style.css" />
         <link type="text/css" rel="stylesheet" href="../assets/css/login.css" />
+        <!-- Icon -->
+        <link rel="icon" href="../assets/images/java-juice-icon-small.png">
     </head>
     <body>
         <!-- this page doesn't have a true "navigation" bar as it is only a
