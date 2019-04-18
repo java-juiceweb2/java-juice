@@ -59,17 +59,17 @@
                     Create your free account now
                 </div>
                 <form method="post" action="exercises/register.php">
-                  <div class="input-row">
-                      <input type="email"
-                             placeholder="Enter your email"
-                             id="email"
-                             name="email"
-                             required />
-                      <button type="submit">
-                          Start learning now
-                      </button>
-                  </div>
-              </form>
+                    <div class="input-row">
+                        <input type="email" 
+                               placeholder="Enter your email"
+                               id="email"
+                               name="email"
+                               required />
+                        <button type="submit">
+                            Start learning now
+                        </button>
+                    </div>
+                </form>
             </div>
         </section>
 
