@@ -21,7 +21,7 @@ if(isset($_POST['username']) &&
     // builds a query to select the user information
     $res = $CONN->query(
         "SELECT *
-        FROM users
+        FROM java_juice_users
         WHERE user_name='{$_POST['username']}'
         LIMIT 1"
     );
@@ -104,6 +104,12 @@ if(isset($_POST['username']) &&
                         </button>
                     </div>
                 </form>
+                <div class="input-row">
+                    <h2 style="margin-bottom: 1em;margin-top: 1em;">Don't have an account?</h2>
+                    <button onclick="window.location.href='register.php'">
+                        Sign up
+                    </button>
+                </div>
             </div>
         </section>
 

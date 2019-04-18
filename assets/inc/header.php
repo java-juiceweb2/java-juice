@@ -27,11 +27,11 @@
             <div class="navbar topnav" id="myTopnav">
                 <ul>
                     <li>
-                        <a class="active navbar" href="../index.php"><img src="../assets/images/java-juice-full-white.png" alt="Java Juice" title="Java Juice" class="brand-nav-img" /></a>
-                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
+                        <a class="active navbar" href="../index.php"><img src="../assets/images/java-juice-full-white.png" alt="Java Juice" title="Java Juice" class="brand-nav-img" /></a></li>
+                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="resources.php">Resources</a></li>
                     <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="forum.php">Forum</a></li>
                     <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="login.php">Quiz</a></li>
-                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
+                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="survey.php">Survey</a></li>
                     </li>
                     <div class="dropdown">
                         <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>

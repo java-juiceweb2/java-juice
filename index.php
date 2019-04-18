@@ -27,10 +27,10 @@
     <section id="header">
         <div class="navbar topnav" id="myTopnav">
             <ul>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/resources.php">Resources</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/forum.php">Forum</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/login.php">Quiz</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/survey.php">Survey</a></li>
                 <div class="dropdown">
                     <li><a class="navbar dropMenu" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lessons">Lessons</a>
                     </li>
@@ -58,15 +58,18 @@
                 <div class="prompt">
                     Create your free account now
                 </div>
-                <!-- this is just set to NOT submit for the time being -->
-                <form method="post" onsubmit="return false;">
-                    <div class="input-row">
-                        <input type="email" placeholder="Enter your email" />
-                        <button>
-                            Start learning now
-                        </button>
-                    </div>
-                </form>
+                <form method="post" action="exercises/register.php">
+                  <div class="input-row">
+                      <input type="email"
+                             placeholder="Enter your email"
+                             id="email"
+                             name="email"
+                             required />
+                      <button type="submit">
+                          Start learning now
+                      </button>
+                  </div>
+              </form>
             </div>
         </section>
 

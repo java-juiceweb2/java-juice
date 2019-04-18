@@ -1,8 +1,8 @@
 /*
     FILE:    style.css
-    DESC:    Styling for the Java Juice landing page.
+    DESC:    Styling for the Java Juice register page.
     AUTHOR:  Kevin J. Becker
-    VERSION: 02/10/2019
+    VERSION: 04/16/2019
 */
 
 /* makes the whole body java juice red (as it might not take up 100vw) */
@@ -12,12 +12,11 @@ body {
 
 /* makes the brand header size smaller */
 .brand-header-sm {
-  margin-top: 2em;
     width: 10rem !important;
 }
 
 /* changes the login tag to be more appropriately sized */
-.login-tag {
+.register-tag {
     text-align: center;
     width: 700px;
     margin: 0 auto;
@@ -40,7 +39,7 @@ body {
 
 @media screen and (max-width: 800px) {
     /* makes the login tag full screen below 800px */
-    .login-tag {
+    .register-tag {
         width: 100%;
     }
 

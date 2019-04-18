@@ -9,6 +9,12 @@ Last Updated: 4/17/19
     $filename = "quiz.php";
     $pagename = "Quiz";
 
+    session_start();
+
+    if (!isset($_SESSION['user_name'])){
+      header("Location: login.php");
+    }
+
     // access database
     require "../../../../dbConnect.inc";
 
