@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 18, 2019 at 09:48 AM
+-- Generation Time: Apr 18, 2019 at 09:58 AM
 -- Server version: 5.5.60-MariaDB
 -- PHP Version: 7.1.24
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ado7383`
+-- Database: `ljk4798`
 --
 
 -- --------------------------------------------------------
@@ -39,9 +39,8 @@ CREATE TABLE `java_juice_form` (
 --
 
 INSERT INTO `java_juice_form` (`name`, `comment`, `id`) VALUES
-('Testing', 'Another comment\r\n', 6),
-('lucas', 'testing\r\n', 7),
-('Alyssa', 'Comments', 8);
+('Java Juice', 'Test Comment', 16),
+('Java Juice', 'Another Test', 17);
 
 --
 -- Indexes for dumped tables
@@ -61,7 +60,7 @@ ALTER TABLE `java_juice_form`
 -- AUTO_INCREMENT for table `java_juice_form`
 --
 ALTER TABLE `java_juice_form`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

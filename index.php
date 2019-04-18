@@ -24,7 +24,7 @@
         <div class="navbar topnav" id="myTopnav">
             <ul>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
-                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
+                <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/forum.php">Forum</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="exercises/login.php">Quiz</a></li>
                 <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
                 <div class="dropdown">

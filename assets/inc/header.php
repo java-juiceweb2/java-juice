@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="../assets/css/ex.css" />
     <link type="text/css" rel="stylesheet" href="../assets/css/quiz.css" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/forum.css" />
     <script type="text/javascript" src="../assets/js/responsive-menu.js"></script>
     <script type="text/javascript" src="../assets/js/problems.js"></script>
 
@@ -26,7 +27,7 @@
                     <li>
                         <a class="active navbar" href="../index.php"><img src="../assets/images/java-juice-full-white.png" alt="Java Juice" title="Java Juice" class="brand-nav-img" /></a>
                     <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#lesources">Resources</a></li>
-                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#forum">Forum</a></li>
+                    <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="forum.php">Forum</a></li>
                     <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="login.php">Quiz</a></li>
                     <li><a class="navbar" style="padding-top: 1.5rem;padding-bottom: 1.25rem;" href="#survey">Survey</a></li>
                     </li>
