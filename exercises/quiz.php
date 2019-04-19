@@ -43,6 +43,9 @@ Last Updated: 4/17/19
         $chosenAnswers[] = $allAnswers[$num];
     }
 
+    $_SESSION['chosenQuestions'] = $chosenQuestions;
+    $_SESSION['chosenAnswers'] = $chosenAnswers;
+
     include "../assets/inc/header.php";
 
 ?>
