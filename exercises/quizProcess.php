@@ -30,7 +30,9 @@ Last Updated: 4/18/19
         
         echo "<p>Question ".($i + 1).") ".$question."</p>
         <p>Correct Answer: ".$correctLetter.") ".$correctAnswer."</p>
-        <p>Your Answer: ".$userLetter.") ".$userAnswer."</p>";
+        <p>Your Answer: ".$userLetter.") ".$userAnswer."</p><br>";
     }
     echo "</div>";
+
+    include "../assets/inc/footer.php";
 ?>
