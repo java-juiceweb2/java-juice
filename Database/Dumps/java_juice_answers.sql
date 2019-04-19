@@ -34,7 +34,7 @@ CREATE TABLE `java_juice_answers` (
   `B` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `C` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `D` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `correctAnswer` varchar(1) COLLATE utf8_unicode_ci NOT NULL,
+  `correctAnswer` varchar(1) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
