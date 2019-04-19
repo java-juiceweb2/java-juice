@@ -10,8 +10,9 @@
     <link type="text/css" rel="stylesheet" href="../assets/css/forum.css" />
     <script type="text/javascript" src="../assets/js/responsive-menu.js"></script>
     <script type="text/javascript" src="../assets/js/problems.js"></script>
-    <!-- Icon -->
-    <link rel="icon" href="../assets/images/java-juice-icon-small.png">
+    <script type="text/javascript" src="../js/validateQuiz.js"></script>
+        <!-- Icon -->
+        <link rel="icon" href="../assets/images/java-juice-icon-small.png">
 
     <!-- For the menubar -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
