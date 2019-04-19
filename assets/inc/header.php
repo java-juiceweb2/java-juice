@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="../assets/css/forum.css" />
     <script type="text/javascript" src="../assets/js/responsive-menu.js"></script>
     <script type="text/javascript" src="../assets/js/problems.js"></script>
+    <script type="text/javascript" src="../js/validateQuiz.js"></script>
         <!-- Icon -->
         <link rel="icon" href="../assets/images/java-juice-icon-small.png">
 
