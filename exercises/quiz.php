@@ -49,19 +49,26 @@ Last Updated: 4/17/19
 
     <h3 class="heading" id="quizHead">Quiz</h3><br>
     <p class="heading">This quiz will have 10 questions, which may be from any of the lessons in Java Juice. Your scores will be saved to your account.</p>
-    <form name="quizForm" action="quizProcess.php" method="post">
+    <form name="quizForm" action="quizProcess.php" method="post" onsubmit="return validateQuiz()">
         <dl id="quiz">
-
+<span id="error"></span>
             <?php
             for ($i = 0; $i < sizeof($chosenQuestions); $i++) {
-                $qnumber = $i + 1;
-                echo "<dt class='quiz-question'>".$qnumber.") ".$chosenQuestions[$i]."</dt>";
+                
+                $question = $chosenQuestions[$i];
+                
+                echo "<div id='question".($i + 1)."'>
+                <dt class='quiz-question'>".($i + 1).") ".$question."</dt>";
                 foreach (range('A', 'D') as $letter) {
+                    
+                    $answer = $chosenAnswers[$i][$letter];
+                    
                     echo "<dd class='answer-wrapper'>
-                    <label class='container'>".$chosenAnswers[$i][$letter]."
+                    <label class='container'>".$answer."
                     <input class='answer' type='radio' name='question".$i."' value='".$letter."'>
                     <span class='checkmark'></span></label></dd>";
                 }
+                echo "</div>";
             }
             ?>
         </dl>
