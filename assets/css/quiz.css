@@ -5,10 +5,13 @@ Author: Aaron Erhart
 Last Updated: 4/17/19
 */
 
+
 /* using 'Open Sans' font from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500|Catamaran:500,800');
 
 /* styles for whole page */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -17,9 +20,9 @@ Last Updated: 4/17/19
 }
 
 #quizHead {
-  font-size: 3em;
-  margin-top: .5em;
-  font-weight: bold;
+    font-size: 3em;
+    margin-top: .5em;
+    font-weight: bold;
 }
 
 .heading {
@@ -28,25 +31,33 @@ Last Updated: 4/17/19
     text-align: center;
 }
 
+
 /* styles for the quiz */
+
 #quiz {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 /* styles for each quiz question */
+
 .quiz-question {
     width: 100%;
     padding: 2rem 0 2rem 0;
 }
 
+
 /* styles for each answer choice */
+
 .answer-wrapper {
     padding: 0.5rem;
 }
 
+
 /* Customize the label (the container) */
+
 .container {
     display: block;
     position: relative;
@@ -60,7 +71,9 @@ Last Updated: 4/17/19
     user-select: none;
 }
 
+
 /* Hide the browser's default radio button */
+
 .container input {
     position: absolute;
     opacity: 0;
@@ -69,7 +82,9 @@ Last Updated: 4/17/19
     width: 0;
 }
 
+
 /* Create a custom radio button */
+
 .checkmark {
     position: absolute;
     top: 0;
@@ -80,29 +95,39 @@ Last Updated: 4/17/19
     border-radius: 50%;
 }
 
+
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+
+.container:hover input~.checkmark {
     background-color: #ccc;
 }
 
+
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
+
+.container input:checked~.checkmark {
     background-color: #686262;
 }
 
+
 /* Create the indicator (the dot/circle - hidden when not checked) */
+
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
+
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
+
+.container input:checked~.checkmark:after {
     display: block;
 }
 
+
 /* Style the indicator (dot/circle) */
+
 .container .checkmark:after {
     top: 9px;
     left: 9px;
@@ -114,6 +139,7 @@ Last Updated: 4/17/19
 
 
 /* styles for submit button*/
+
 #submit-button {
     text-align: center;
     margin-left: 45%;
@@ -133,9 +159,27 @@ Last Updated: 4/17/19
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.45);
 }
 
+
 /* styles for quiz results */
+
 #results-container {
     width: 75%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* Styling the header */
+
+#quizResults {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.quizQuestion {
+    font-weight: bold;
+    font-size: 1.25em;
 }

@@ -33,7 +33,5 @@ function validateQuiz() {
             return false;
         }
     }
-
-
     return true;
 }
