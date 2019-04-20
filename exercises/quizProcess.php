@@ -8,6 +8,7 @@ Last Updated: 4/18/19
     session_start();
     require "../../../../dbConnect.inc";
     $filename = "quizProcess.php";
+    $pagename = "Quiz Results";
     $answers = [];
     for ($i = 0; $i < sizeof($_POST); $i++) {
         $answers[$i] = $_POST["question".$i];
@@ -48,7 +49,7 @@ Last Updated: 4/18/19
         $userLetter = $answers[$i];
         $userAnswer = $_SESSION['chosenAnswers'][$i][$userLetter];
         
-        echo "<p class="quizQuestion">Question ".($i + 1).") ".$question."</p>
+        echo "<p class=\"quizQuestion\">Question ".($i + 1).") ".$question."</p>
         <p>Correct Answer: ".$correctLetter.") ".$correctAnswer."</p>
         <p>Your Answer: ".$userLetter.") ".$userAnswer."</p><br>";
     }

@@ -19,7 +19,7 @@ if(isset($_POST['username']) &&
     // otherwise
     require_once '../../../../dbConnect.inc';
     // builds a query to select the user information
-    $res = $CONN->query(
+    $res = $mysqli->query(
         "SELECT *
         FROM java_juice_users
         WHERE user_name='{$_POST['username']}'
