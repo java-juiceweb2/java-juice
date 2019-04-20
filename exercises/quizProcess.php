@@ -6,7 +6,7 @@ Last Updated: 4/18/19
 -->
 <?php
     session_start();
-    require "../../../dbConnect.inc";
+    require "../../../../dbConnect.inc";
     $filename = "quizProcess.php";
     $answers = [];
     for ($i = 0; $i < sizeof($_POST); $i++) {
@@ -37,7 +37,7 @@ Last Updated: 4/18/19
         $userAnswer = $_SESSION['chosenAnswers'][$i][$userLetter];
         
         if ($userLetter == $correctLetter) {
-            $numCorrect++
+            $numCorrect++;
         }
     }
     for ($i = 0; $i < sizeof($_SESSION['chosenAnswers']); $i++) {
