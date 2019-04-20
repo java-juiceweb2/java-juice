@@ -40,10 +40,10 @@ Last Updated: 4/18/19
             $numCorrect++;
         }
     }
+    echo "<p>Total Correct: ".$numCorrect."/10</p>";
     for ($i = 0; $i < sizeof($_SESSION['chosenAnswers']); $i++) {
         
-        echo "<p>Total Correct: ".$numCorrect."/10</p>
-        <p>Question ".($i + 1).") ".$question."</p>
+        echo "<p>Question ".($i + 1).") ".$question."</p>
         <p>Correct Answer: ".$correctLetter.") ".$correctAnswer."</p>
         <p>Your Answer: ".$userLetter.") ".$userAnswer."</p><br>";
     }
