@@ -26,7 +26,7 @@ Last Updated: 4/17/19
     }
 
     // get answers and add them to a 2d array
-    $sql = "select questionID, A, B, C, D from java_juice_answers";
+    $sql = "select questionID, A, B, C, D, correctAnswer from java_juice_answers";
     $res = mysqli_query($mysqli, $sql);
     while ($row = $res->fetch_assoc()) {
             $allAnswers[] = $row;
